@@ -26,6 +26,14 @@ const UserForm = ({errors, touched, status}) => {
                 <span>Terms Of Service</span>
             </label>
             <button type='submit'>Submit</button>
+
+        {users.map((users) => (
+            <div>
+                Name: {users.name}<br />
+                E-mail: {users.email}<br />
+                Password: Wouldnt you like to know!<br />
+            </div>
+        ))}
         </Form>
     )
 }
