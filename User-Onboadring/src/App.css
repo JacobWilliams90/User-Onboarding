@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: orange;
+  font-size: 20px;
+}
+
+form {
+  padding: 5px 50px 20px 50px;
+  text-decoration: underline;
+  display: flex;
+  flex-direction: column;
+  background: crimson;
+  border-radius: 20%;
+  max-width: 200px;
+  margin: 10rem auto;
+}
+
+input, label, button, select {
+  margin: 5px;
+}
+
